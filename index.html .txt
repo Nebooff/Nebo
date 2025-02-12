@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebo - Компания</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #34495e;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Компания Nebo</h1>
+        <p>Мы создаем решения для вашего бизнеса</p>
+    </header>
+
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#partnership">Сотрудничество</a>
+    </nav>
+
+    <section id="home">
+        <h2>Главная</h2>
+        <p>Добро пожаловать в компанию Nebo. Мы помогаем бизнесу развиваться.</p>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Компания Nebo – это команда профессионалов, работающих в сфере бизнес-решений.</p>
+    </section>
+
+    <section id="services">
+        <h2>Услуги</h2>
+        <ul>
+            <li>Консалтинг</li>
+            <li>Маркетинговые стратегии</li>
+            <li>Автоматизация бизнеса</li>
+        </ul>
+    </section>
+
+    <section id="prices">
+        <h2>Цены</h2>
+        <p>Мы предлагаем гибкие условия для каждого клиента. Свяжитесь с нами для расчета стоимости.</p>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Email: info@nebo.ru</p>
+        <p>Телефон: +7 (999) 123-45-67</p>
+    </section>
+
+    <section id="partnership">
+        <h2>Сотрудничество</h2>
+        <p>Мы открыты к новым партнерам. Пишите нам на partner@nebo.ru.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Компания Nebo. Все права защищены.</p>
+    </footer>
+</body>
+</html>
